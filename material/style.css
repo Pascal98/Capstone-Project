@@ -244,6 +244,10 @@ header #logo {
 	padding-top: 0;
 }
 
+.mqrows {
+	display: none;
+}
+
 /*section 2*/
 
 #section2 {
@@ -345,6 +349,8 @@ header #logo {
 		font-size: 14px;
 	}
 	
+	/*header*/
+	
 	#logo, #nav {
 		display: none !important;
 	}
@@ -352,6 +358,7 @@ header #logo {
 	#mqimages {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		width: 100%;
 	}
 	
@@ -363,8 +370,12 @@ header #logo {
 		margin: 0 auto;
 	}
 	
+	/*banner section*/
+	
 	.banner {
 		flex-direction: column;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	
 	.banner .image {
@@ -375,27 +386,111 @@ header #logo {
 	
 	.banner .info {
 		width: 100%;
-		margin-left: 1.5rem;
 		overflow: hidden;
 		position: relative;
 		top: -2rem;
+		text-align: center;
 	}
 	
 	.infolink {
 		width: 100%;
-		height: 8px;
+		height: 0.5rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 	
 	.info span a {
-		padding: 8px 0;
+		padding: 0.5rem 7rem;
+		width: 100%;
 	}
+	
+	/*section1*/
 	
 	#section1, .modulrow1, .modulrow2, #cols{
 		flex-direction: column;
+		margin: 0;
 	}
+	
+	#section1 .columnright {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.columnright .image {
+		margin: 0!important;
+		padding: 0!important;
+	}
+	
+	.row1, .row2, .row3 {
+		flex-direction: column;
+		overflow: hidden;
+		margin: 0;
+	}
+	
+	.imagetext {
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.row3 {
+		background-color: #F1F1F1;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
+	.mqrows {
+		display: inherit;
+	}
+	
+	/*section2*/
+	
+	#section2 {
+		background-color: #F1F1F1;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#section2 h1 {
+		margin: -2rem 0 -0.5rem 0;
+	}
+	
+	.modul img, .computer img, .business img, .videotext, #section3 .columnright, .modulinfo span, .modulinfo p, .columnright .image, #section1 .columnleft, .links {
+		display: none;
+	}
+	
+	.modulrow1, .modulrow2 {
+		width: 91%;
+		margin: 0;
+	}
+	
+	.modulinfo {
+		width: 100%;
+		margin: 0;
+		padding: 1rem 1rem;
+	}
+	
+	.modul, .computer, .business {
+		margin: 0.5rem 1rem;
+		background-color: #D0D0D0;
+	}
+	
+	/*section3*/
+	
+	#section3 {
+		margin-top: 1rem;
+	}
+	
+	.columnleft {
+		width: 100%;
+	}
+	
+	.copyright {
+		width: 100%;
+	}
+
 }
 
 
