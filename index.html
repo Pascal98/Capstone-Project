@@ -21,6 +21,12 @@
   	      <span>ACADEMY</span>
   	    </div>
   	</div>
+  	 <div id="mqimages">
+ 	    <a href="#"><img src="material/images/ic-logo.svg" alt="logo"/></a>
+ 	  	<a href="#"><img src="material/images/ic-on-campus.svg" alt="campus"/></a>
+ 	  	<a href="#"><img src="material/images/ic-online.svg" alt="pc"/></a>
+ 	  	<a href="#"><img src="material/images/ic-login.svg" alt="login"/></a>
+ 	  </div>
   	<div id="nav">
   	  <a href="#">On campus</a>
   	  <a href="#">Online</a>
@@ -40,7 +46,9 @@
   	  <br>
   	  <p>It is fun to create this capstone <br>project but it's a challenge.</p>	
   	  <br>
-  	  <span><a href="#">Start here</a></span>
+  	  <div class="infolink">
+  	    <span><a href="#">Start here</a></span>
+  	  </div>
   	</div>
   </div>
   	
@@ -48,7 +56,7 @@
 
   <content>
     <div id="section1">				<!--section1-->
-      <div id="columnleft">			<!-- column left-->
+      <div class="columnleft">			<!-- column left-->
         <div class="leftimage">
           <img src="material/images/information-main.jpg" alt="a studying man"/>
         </div>
@@ -57,7 +65,7 @@
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><span>Emanuel, Sr Strategyst at Hiring.com</span>	
         </div>
       </div>
-      <div id="columnright">		<!--column right-->
+      <div class="columnright">		<!--column right-->
       	<div class="row1">
       	  <div class="image">
       	    <img src="material/images/information-orientation.jpg" alt="Orientation"/>	
@@ -95,36 +103,111 @@
  
     <div id="section2">
    	  <h1>Start learning</h1>
-   	  <div class="moduls">
-   	  	<div class="software">
-   	  		
+   	  <div class="modulrow1">
+   	  	<div class="modul">
+   	  	  <img src="material/images/course-software.jpg" alt="computer"/>
+   	  	  <div class="modulinfo">
+   	  	    <h2>Software engineering</h2>
+   	  	    <span>COURSES</span>
+   	  	    <p>Web Development, Mobile Development, iOT, APIs</p>
+   	  	  </div>
    	  	</div>
    	  	<div class="computer">
-   	  		
+   	  	  <img src="material/images/course-computer-art.jpg" alt="mobile phone"/>
+   	  	  <div class="modulinfo">	
+   	  	    <h2>Computer art</h2>
+   	  	    <span>COURSES</span>
+   	  	    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+	      </div>
    	  	</div>
-   	  	<div class="design">
-   	  		
+   	  	<div class="modul">
+   	  	  <img src="material/images/course-design.jpg" alt="camera"/>
+   	  	  <div class="modulinfo">
+   	  	    <h2>Design</h2>
+   	  	    <span>COURSES</span>
+   	  	    <p>User Experience Design, User Research, Visual Design</p>
+		  </div>
    	  	</div>
-   	  	<div class="data">
-   	  		
+	  </div>
+  	  <div class="modulrow2">
+   	  	<div class="modul">
+   	  	 <img src="material/images/course-data.jpg" alt="data management"/>	
+   	  	 <div class="modulinfo">
+   	  	   <h2>Data</h2>
+   	  	   <span>COURSES</span>
+   	  	   <p>Data Science, Big Data, SQL, Data Visualization</p>
+		 </div>
    	  	</div>
    	  	<div class="business">
-   	  		
+   	  	  <img src="material/images/course-business.jpg" alt="chess"/>	
+   	  	  <div class="modulinfo">
+   	  	    <h2>Business</h2>
+   	  	    <span>COURSES</span>
+   	  	    <p>Product Development, Busines Development, Startup</p>
+		  </div>
    	  	</div>
-   	  	<div class="marketing">
-   	  		
+   	  	<div class="modul">
+   	  	  <img src="material/images/course-marketing.jpg" alt="advert"/>
+   	  	  <div class="modulinfo">
+   	  	    <h2>Marketing</h2>
+   	  	    <span>COURSES</span>
+   	  	    <p>Analytics, Content Marketing, Mobile Marketing</p>	
+		  </div>
    	  	</div>
    	  </div>
     </div>
  
+ <!--section 3-->
  
- 
- 
- 
- 
- 
- 
-  </content>
+   <div id="section3">
+     <h1>Thesis exhibit</h1>
+     <div id="cols">
+       <div class="columnleft">
+         <div class="video">
+           <video src="material/videos/thesis.mp4" controls>Video can't be loaded</video>
+         </div>	
+         <div class="videotext">
+       	   <span>Reimagine urban</span>
+       	   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+         </div>
+       </div>
+       <div class="columnright">
+         <div class="row1">
+           <div class="image">
+      	     <img src="material/images/thesis-fisma.jpg" alt="conception"/>
+      	   </div>
+      	   <div class="imagetext">
+      	     <span>Fisma: Design and Prototype</span>
+      	     <p>Designer showcase of ne prototype product</p>
+           </div>
+	     </div>
+         <div class="row2">
+           <div class="image">
+      	     <img src="material/images/thesis-now-and-then.jpg" alt="New York"/>
+      	   </div>
+      	   <div class="imagetext">
+      	     <span>Now and then</span>
+      	     <p>Research study about New York</p>
+           </div>
+         </div>
+       </div>
+	 </div>
+   </div>
+ </content>
+  
+<!--footer-->
+
+  <footer>
+  	<div id="footer">
+  	  <div class="copyright">
+  	    <span>@2016 Colmar Academy. All rights reserved</span>
+  	  </div>
+  	  <div class="links">
+  	    <a href="#">Terms</a>
+  	    <a href="#">Privacy</a>
+  	  </div>
+  	</div>
+  </footer>
 
 </body>
 </html>
